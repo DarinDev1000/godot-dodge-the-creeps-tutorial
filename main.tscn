@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=4 uid="uid://b5o6krlg1e1o"]
 
 [ext_resource type="PackedScene" uid="uid://cwue7x5oiiwxh" path="res://player.tscn" id="1_0y5vg"]
-[ext_resource type="Script" uid="uid://hkxx67qfourq" path="res://main.gd" id="1_18y46"]
+[ext_resource type="Script" path="res://main.gd" id="1_18y46"]
 [ext_resource type="PackedScene" uid="uid://brty15wy22chn" path="res://mob.tscn" id="2_ferl0"]
 [ext_resource type="PackedScene" uid="uid://cpxk5rs40b57y" path="res://my-joystick-component/joystick.tscn" id="4_vh5jb"]
 [ext_resource type="PackedScene" uid="uid://dthjlqenf4okc" path="res://hud.tscn" id="5_dmt1c"]
@@ -68,5 +68,4 @@ stream = ExtResource("6_8vbaa")
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
 [connection signal="timeout" from="ScoreTimer" to="." method="_on_score_timer_timeout"]
 [connection signal="timeout" from="StartTimer" to="." method="_on_start_timer_timeout"]
-[connection signal="vjoy_move" from="MyJoystick" to="Player" method="_on_my_joystick_vjoy_move"]
 [connection signal="start_game" from="HUD" to="." method="new_game"]
