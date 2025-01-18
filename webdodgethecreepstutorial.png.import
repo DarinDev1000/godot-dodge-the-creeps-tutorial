@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://v744ir7jw4b4"
-path="res://.godot/imported/webdodgethecreepstutorial.png-53e4fdc2a23771e493f254a81f68a27b.ctex"
+uid="uid://cxyj5vd8he3gq"
+path="res://.godot/imported/webdodgethecreepstutorial.png-56c53e161758ee86c740ab5e2ce1f7ba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://webdodgethecreepstutorial.png"
-dest_files=["res://.godot/imported/webdodgethecreepstutorial.png-53e4fdc2a23771e493f254a81f68a27b.ctex"]
+source_file="res://exports/export web/webdodgethecreepstutorial.png"
+dest_files=["res://.godot/imported/webdodgethecreepstutorial.png-56c53e161758ee86c740ab5e2ce1f7ba.ctex"]
 
 [params]
 
